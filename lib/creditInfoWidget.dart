@@ -1,6 +1,12 @@
 import 'package:flutter/material.dart';
 
-class _creditInfoWidget extends StatelessWidget {
+class creditInfoWidget extends StatefulWidget {
+  @override
+  State<StatefulWidget> createState() {
+    return _creditInfoWidgetState();
+  }
+}
+class _creditInfoWidgetState extends State<StatefulWidget> {
 
   @override
   Widget build(BuildContext context) {
@@ -119,7 +125,7 @@ class _creditInfoWidget extends StatelessWidget {
                                 0.03),
                       ),
                       trailing: Padding(
-                        padding: const EdgeInsets.only(right: 8.0),
+                        padding: const EdgeInsets.only(right: 16.0),
                         child: Icon(
                           Icons.arrow_forward_ios,
                           size: MediaQuery.of(context).size.width *
