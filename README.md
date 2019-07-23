@@ -1,6 +1,6 @@
 # nu_design
 
-NuBank Design
+Clone do Design do App da NuBank
 
 ## Getting Started
 
