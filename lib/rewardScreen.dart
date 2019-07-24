@@ -41,17 +41,18 @@ class _rewardsScreenWidgetState extends State<StatefulWidget> {
                     ),
                   ),
                   Text(
-                    "Troque os pontos que acumular por passaegns aéreas compradas em qualquer site.",
+                    "Troque os pontos que acumular por passagens aéreas compradas em qualquer site.",
                     textAlign: TextAlign.center,
                   ),
                   Container(
                     height: 100.0,
                   ),
-                  FlatButton(
+                  MaterialButton(
                       onPressed: () {},
                       child: Container(
                         foregroundDecoration: BoxDecoration(
-                          border: Border.all(color: Colors.purpleAccent, width: 2.0)
+                          borderRadius: BorderRadius.circular(6.0),
+                          border: Border.all(color: Color.fromRGBO(145, 64, 169, 1.0), width: 1.0)
                         ),
                         child: Padding(
                           padding: const EdgeInsets.only(top:16.0, bottom: 16.0, left: 60.0, right:60.0),
@@ -59,7 +60,7 @@ class _rewardsScreenWidgetState extends State<StatefulWidget> {
                             child: Text(
                               "ATIVE O SEU REWARDS",
                               style: TextStyle(
-                                color: Colors.purpleAccent,
+                                color: Color.fromRGBO(145, 64, 169, 1.0),
                               ),
                             ),
                           ),

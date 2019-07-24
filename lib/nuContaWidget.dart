@@ -41,7 +41,7 @@ class _NuContaWidgetState extends State<StatefulWidget> {
               child: Text("NuConta"),
             ),
             new Positioned(
-              top: 32,
+              top: 15,
               right: 32,
               child: IconButton(
                 icon: Icon(Icons.visibility_off),
@@ -75,7 +75,7 @@ class _NuContaWidgetState extends State<StatefulWidget> {
                   constraints: BoxConstraints(
                       minWidth: MediaQuery.of(context).size.width * 0.8,
                       maxHeight: MediaQuery.of(context).size.height * 0.11,
-                      maxWidth: MediaQuery.of(context).size.width * 0.96,
+                      maxWidth: MediaQuery.of(context).size.width * 0.9,
                       minHeight: MediaQuery.of(context).size.height * 0.11),
                   child: Center(
                     child: ListTile(

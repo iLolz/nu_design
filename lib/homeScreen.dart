@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:nu_design/nuContaWidget.dart';
 import 'package:nu_design/creditInfoWidget.dart';
 import 'package:nu_design/rewardScreen.dart';
+
 class homeScreen extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
@@ -77,15 +78,22 @@ class _homeScreenState extends State<StatefulWidget> {
                         child: Container(
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(6.0),
-                                color: Colors.purple),
+                                color: Color.fromRGBO(145, 64, 169, 1.0)),
                             height: 80,
                             width: 80,
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: <Widget>[
-                                Icon(
-                                  Icons.person_add,
-                                  color: Colors.white,
+                                Row(
+                                  children: <Widget>[
+                                    Padding(
+                                      padding: const EdgeInsets.only(left:8.0),
+                                      child: Icon(
+                                        Icons.person_add,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ],
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
@@ -103,15 +111,22 @@ class _homeScreenState extends State<StatefulWidget> {
                         child: Container(
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(4.0),
-                                color: Colors.purple),
+                                color: Color.fromRGBO(145, 64, 169, 1.0)),
                             height: 80,
                             width: 80,
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: <Widget>[
-                                Icon(
-                                  Icons.monetization_on,
-                                  color: Colors.white,
+                                Row(
+                                  children: <Widget>[
+                                    Padding(
+                                      padding: const EdgeInsets.only(left:8.0),
+                                      child: Icon(
+                                        Icons.monetization_on,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ],
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
@@ -129,15 +144,22 @@ class _homeScreenState extends State<StatefulWidget> {
                         child: Container(
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(4.0),
-                                color: Colors.purple),
+                                color: Color.fromRGBO(145, 64, 169, 1.0)),
                             height: 80,
                             width: 80,
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: <Widget>[
-                                Icon(
-                                  Icons.attach_money,
-                                  color: Colors.white,
+                                Row(
+                                  children: <Widget>[
+                                    Padding(
+                                      padding: const EdgeInsets.only(left:8.0),
+                                      child: Icon(
+                                        Icons.attach_money,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ],
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
@@ -155,15 +177,22 @@ class _homeScreenState extends State<StatefulWidget> {
                         child: Container(
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(4.0),
-                                color: Colors.purple),
+                                color: Color.fromRGBO(145, 64, 169, 1.0)),
                             height: 80,
                             width: 80,
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: <Widget>[
-                                Icon(
-                                  Icons.money_off,
-                                  color: Colors.white,
+                                Row(
+                                  children: <Widget>[
+                                    Padding(
+                                      padding: const EdgeInsets.only(left:8.0),
+                                      child: Icon(
+                                        Icons.money_off,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ],
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
@@ -181,15 +210,22 @@ class _homeScreenState extends State<StatefulWidget> {
                         child: Container(
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(4.0),
-                                color: Colors.purple),
+                                color: Color.fromRGBO(145, 64, 169, 1.0)),
                             height: 80,
                             width: 80,
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: <Widget>[
-                                Icon(
-                                  Icons.tune,
-                                  color: Colors.white,
+                                Row(
+                                  children: <Widget>[
+                                    Padding(
+                                      padding: const EdgeInsets.only(left:8.0),
+                                      child: Icon(
+                                        Icons.tune,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ],
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
@@ -211,15 +247,22 @@ class _homeScreenState extends State<StatefulWidget> {
                         child: Container(
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(4.0),
-                                color: Colors.purple),
+                                color: Color.fromRGBO(145, 64, 169, 1.0)),
                             height: 80,
                             width: 80,
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: <Widget>[
-                                Icon(
-                                  Icons.tune,
-                                  color: Colors.white,
+                                Row(
+                                  children: <Widget>[
+                                    Padding(
+                                      padding: const EdgeInsets.only(left:8.0),
+                                      child: Icon(
+                                        Icons.payment,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ],
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
@@ -241,15 +284,22 @@ class _homeScreenState extends State<StatefulWidget> {
                         child: Container(
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(4.0),
-                                color: Colors.purple),
+                                color: Color.fromRGBO(145, 64, 169, 1.0)),
                             height: 80,
                             width: 80,
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: <Widget>[
-                                Icon(
-                                  Icons.lock_open,
-                                  color: Colors.white,
+                                Row(
+                                  children: <Widget>[
+                                    Padding(
+                                      padding: const EdgeInsets.only(left:8.0),
+                                      child: Icon(
+                                        Icons.lock_open,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ],
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),
@@ -271,15 +321,22 @@ class _homeScreenState extends State<StatefulWidget> {
                         child: Container(
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(4.0),
-                                color: Colors.purple),
+                                color: Color.fromRGBO(145, 64, 169, 1.0)),
                             height: 80,
                             width: 80,
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: <Widget>[
-                                Icon(
-                                  Icons.credit_card,
-                                  color: Colors.white,
+                                Row(
+                                  children: <Widget>[
+                                    Padding(
+                                      padding: const EdgeInsets.only(left:8.0),
+                                      child: Icon(
+                                        Icons.credit_card,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ],
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(4.0),
@@ -301,15 +358,22 @@ class _homeScreenState extends State<StatefulWidget> {
                         child: Container(
                             decoration: BoxDecoration(
                                 borderRadius: BorderRadius.circular(4.0),
-                                color: Colors.purple),
+                                color: Color.fromRGBO(145, 64, 169, 1.0)),
                             //height: 80,
                             //width: 80,
                             child: Column(
                               mainAxisAlignment: MainAxisAlignment.spaceAround,
                               children: <Widget>[
-                                Icon(
-                                  Icons.filter_list,
-                                  color: Colors.white,
+                                Row(
+                                  children: <Widget>[
+                                    Padding(
+                                      padding: const EdgeInsets.only(left:8.0),
+                                      child: Icon(
+                                        Icons.filter_list,
+                                        color: Colors.white,
+                                      ),
+                                    ),
+                                  ],
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(8.0),

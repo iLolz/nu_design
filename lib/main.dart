@@ -11,9 +11,9 @@ class MyApp extends StatelessWidget {
       title: 'Flutter Demo',
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
-        backgroundColor: Colors.purple,
-        accentColor: Colors.purpleAccent,
-        cardColor: Colors.deepPurpleAccent,
+        backgroundColor: Color.fromRGBO(109, 33, 119, 1.0),
+        accentColor:Color.fromRGBO(145, 64, 169, 1.0),
+        cardColor: Color.fromRGBO(145, 64, 169, 1.0),
       ),
       home: homeScreen(),
     );
