@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:nu_design/creditInfoWidget.dart';
 
+import 'configGeral.dart';
 import 'listTilePurchase.dart';
 
 class lastPurchases extends StatefulWidget {
@@ -42,7 +43,13 @@ class _lastPurchasesState extends State<StatefulWidget> {
                     ),
                     actions: <Widget>[
                       FlatButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (BuildContext context) =>
+                                      configGeral()));
+                        },
                         child: Icon(
                           Icons.search,
                           color: Colors.grey,
