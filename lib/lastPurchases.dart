@@ -1,23 +1,22 @@
 import 'package:flutter/material.dart';
-import 'package:nu_design/creditInfoWidget.dart';
 
 import 'configGeral.dart';
 import 'listTilePurchase.dart';
 
-class lastPurchases extends StatefulWidget {
+class LastPurchases extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
-    return _lastPurchasesState();
+
+    return _LastPurchasesState();
   }
 }
 
-class _lastPurchasesState extends State<StatefulWidget> {
+class _LastPurchasesState extends State<StatefulWidget> {
   ScrollController _scrollController = ScrollController();
 
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
+
     return Scaffold(
         bottomSheet: null,
         body: Stack(
@@ -48,7 +47,7 @@ class _lastPurchasesState extends State<StatefulWidget> {
                               context,
                               MaterialPageRoute(
                                   builder: (BuildContext context) =>
-                                      configGeral()));
+                                      ConfigGeral()));
                         },
                         child: Icon(
                           Icons.search,
@@ -102,52 +101,52 @@ class _lastPurchasesState extends State<StatefulWidget> {
                   hasScrollBody: true,
                   child: ListView(
                     children: <Widget>[
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
-                      listTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
+                      ListTilePurchase(),
                     ],
                   ),
                 )

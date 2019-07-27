@@ -3,12 +3,12 @@ import 'package:flutter/material.dart';
 class Purchase extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
-    return _purchaseState();
+
+    return _PurchaseState();
   }
 }
 
-class _purchaseState extends State<StatefulWidget> {
+class _PurchaseState extends State<StatefulWidget> {
   ScrollController _scrollController = ScrollController();
 
   @override

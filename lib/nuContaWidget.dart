@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class nuContaWidget extends StatefulWidget {
+class NuContaWidget extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
     return _NuContaWidgetState();
@@ -44,6 +44,7 @@ class _NuContaWidgetState extends State<StatefulWidget> {
               top: 15,
               right: 32,
               child: IconButton(
+                onPressed: (){},
                 icon: Icon(Icons.visibility_off),
               ),
             ),

@@ -1,15 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:nu_design/purchaseDetails.dart';
 
-class listTilePurchase extends StatefulWidget {
+class ListTilePurchase extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    // TODO: implement createState
-    return _listTilePurchaseState();
+
+    return _ListTilePurchaseState();
   }
 }
 
-class _listTilePurchaseState extends State<StatefulWidget> {
+class _ListTilePurchaseState extends State<StatefulWidget> {
   @override
   Widget build(BuildContext context) {
     return FlatButton(

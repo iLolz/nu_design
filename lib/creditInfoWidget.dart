@@ -1,20 +1,20 @@
 import 'package:flutter/material.dart';
 import 'package:nu_design/lastPurchases.dart';
 
-class creditInfoWidget extends StatefulWidget {
+class CreditInfoWidget extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return _creditInfoWidgetState();
+    return _CreditInfoWidgetState();
   }
 }
 
-class _creditInfoWidgetState extends State<StatefulWidget> {
+class _CreditInfoWidgetState extends State<StatefulWidget> {
   @override
   Widget build(BuildContext context) {
     return MaterialButton(
       onPressed: () {
         Navigator.push(
-            context, MaterialPageRoute(builder: (context) => lastPurchases()));
+            context, MaterialPageRoute(builder: (context) => LastPurchases()));
       },
       child: Padding(
         padding: const EdgeInsets.all(8.0),

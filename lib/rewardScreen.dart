@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class rewardScreenWidget extends StatefulWidget {
+class RewardScreenWidget extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return _rewardsScreenWidgetState();
+    return _RewardsScreenWidgetState();
   }
 }
 
-class _rewardsScreenWidgetState extends State<StatefulWidget> {
+class _RewardsScreenWidgetState extends State<StatefulWidget> {
 
   @override
   Widget build(BuildContext context) {
